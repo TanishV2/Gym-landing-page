@@ -18,6 +18,10 @@ body{
   display: block;
 }
 
+::-webkit-scrollbar{
+  display: none;
+}
+
 #heading{
   font-size: 3em;
   display: flex;
@@ -84,7 +88,6 @@ body{
 #home{ 
   position: relative;
   height: 85vh;
-  width: 100vw;
 }
 
 #image{
